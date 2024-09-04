@@ -1,0 +1,177 @@
+ *{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    position: relative;
+}
+.navbar{
+    display: flex;
+    gap: 281px;
+    height: 77px;
+    justify-content: space-around;
+    padding: 1rem;
+    background-color: rgb(205, 205, 205);
+    box-shadow: 0px 0px 5px 0px black;
+}
+.nav ul{
+    display: flex;
+    gap:12px;
+    list-style: none;
+}
+.brand_name{
+    display: flex;
+}
+
+.brand_name img{
+    width: 50px;
+    bottom: 5px;
+   
+}
+.nav ul{
+    left: 153px;
+}
+
+.nav li{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 3px;
+    cursor: pointer;
+    padding: 16px;
+    
+}
+.nav ul :hover{
+    background-color: rgba(228, 223, 223, 0.756);
+    border-bottom: 2px solid rgb(255, 255, 255);
+    border-radius: 8px;
+
+}
+.btns button{
+    padding: 14px;
+    border-radius: 8px;
+    border: none;
+    font-size: 17px;
+ }
+
+            /* body section */
+
+.body-section{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 22px;
+}
+.body-title{
+    width: 50%;
+
+    line-gap-override: 22px;
+}
+.body-title h1{
+    font-size: 53px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 3px 3px 2px rgb(206, 205, 205);
+
+}
+.body-title h3{
+    font-size: 33px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 0px 2px 4px 0px black;
+
+}
+.body-title p{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 0px 2px 4px 0px black;
+
+}
+
+.body-image img{
+    width:40rem;
+}
+
+    /* media queries */
+    
+
+        /* for leptop */
+    @media only screen and (min-width:992px) and (max-width:1199px){
+        
+        
+    }
+
+
+    /* for tablet */
+
+    @media only screen and (min-width:768px) and (max-width:991px){
+        /* Css rules for leptop */
+        .body-title{
+            width: 350%;
+            top: 22px;
+        }
+        .body-title h1{
+            font-size: 33px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-shadow: 3px 3px 2px rgb(206, 205, 205);
+        
+        }
+        .body-title h3{
+            font-size: 23px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-shadow: 0px 2px 4px 0px black;
+        
+        }
+        .body-title p{
+            font-size: 16px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-shadow: 0px 2px 4px 0px black;
+        
+        }
+
+        .body-image img{
+            width:25rem;
+            top: 22px;
+        }
+        
+    }
+
+    /* for mobile devices */
+     
+    @media only screen and (max-width:767px){
+        /* css rules for mobile */
+
+
+        .body-section{
+    
+            display: block;
+            justify-content: center;
+            align-items: center;
+            gap: 22px;
+        }
+        .body-title{
+            width: 100%;
+            top: 22px;
+            text-align: center;
+        }
+        .body-title h1{
+            font-size: 43px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-shadow: 3px 3px 2px rgb(206, 205, 205);
+        
+        }
+        .body-title h3{
+            font-size: 33px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-shadow: 0px 2px 4px 0px black;
+        
+        }
+        .body-title p{
+            font-size: 26px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-shadow: 0px 2px 4px 0px black;
+        
+        }
+
+        .body-image img{
+            width: 50rem;
+            top: 22px;
+        }
+    }
